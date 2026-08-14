@@ -229,3 +229,12 @@ dmypy.json
 cover/
 .tox/
 uv.lock
+
+# 本地启动脚本（包含 API Key，勿提交）
+start-local.ps1
+
+start-digital-human.ps1
+dh_static/
+
+# 桥接服务自签 HTTPS 证书（本地生成，勿提交）
+.ssl/
